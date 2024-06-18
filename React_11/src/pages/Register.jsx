@@ -56,7 +56,7 @@ function Register() {
             <div className="mt-7 flex flex-col gap-2">
               <button
                 onClick={signInWithGoogle}
-                className="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-[#333] focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-60"
+                className="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-1 disabled:cursor-not-allowed "
               >
                 <img
                   src="https://www.svgrepo.com/show/475656/google-color.svg"
@@ -66,7 +66,7 @@ function Register() {
                 Continue with Google
               </button>
 
-              <button className="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-[#333] focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-60">
+              <button className="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-1 disabled:cursor-not-allowed ">
                 <img
                   src="https://www.svgrepo.com/show/512317/github-142.svg"
                   alt="GitHub"
@@ -75,7 +75,7 @@ function Register() {
                 Continue with GitHub
               </button>
 
-              <button className="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-[#333] focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-60">
+              <button className="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-1 disabled:cursor-not-allowed ">
                 <img
                   src="https://www.svgrepo.com/show/448234/linkedin.svg"
                   alt="LinkedIn"
@@ -103,7 +103,7 @@ function Register() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="block mt-2 bg-green-500 block w-full rounded-lg border border-red-500 px-3 py-2 shadow-sm outline-none placeholder:text-white focus:ring-2 focus:ring-red-500 focus:ring-offset-1"
-                placeholder="Email Address"
+                placeholder="Email@.com"
               />
 
               <label htmlFor="password" className="sr-only">
@@ -135,7 +135,7 @@ function Register() {
                 type="submit"
                 className="inline-flex w-full text-xl items-center justify-center rounded-lg bg-green-600 p-2 py-3 text-sm font-medium  focus:bg-white focus:text-green-600 text-white outline-none focus:ring-2 focus:ring-green-600  focus:ring-offset-1"
               >
-                Register
+                Register  
               </button>
             </form>
 
