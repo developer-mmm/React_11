@@ -48,10 +48,9 @@ function Register() {
             <span className="sr-only">Close popup</span>
           </button>
 
-          <div className="p-5">
-            <h3 className="text-2xl mb-0.5 font-medium">Register</h3>
-            <p className="mb-4 text-sm font-normal text-gray-800">
-              Create your account
+          <div className=" rounded-lg p-5 border-4 border-violet-600">
+            <p className="mb-2 text-center text-2xl font-bold text-green-600">
+              Register
             </p>
 
             <div className="mt-7 flex flex-col gap-2">
@@ -103,7 +102,7 @@ function Register() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="block w-full rounded-lg border border-gray-300 px-3 py-2 shadow-sm outline-none placeholder:text-gray-400 focus:ring-2 focus:ring-black focus:ring-offset-1"
+                className="block mt-2 bg-green-500 block w-full rounded-lg border border-red-500 px-3 py-2 shadow-sm outline-none placeholder:text-white focus:ring-2 focus:ring-red-500 focus:ring-offset-1"
                 placeholder="Email Address"
               />
 
@@ -117,7 +116,7 @@ function Register() {
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="mt-2 block w-full rounded-lg border border-gray-300 px-3 py-2 shadow-sm outline-none placeholder:text-gray-400 focus:ring-2 focus:ring-black focus:ring-offset-1"
+                className="mt-2 bg-green-500 block w-full rounded-lg border border-red-500 px-3 py-2 shadow-sm outline-none placeholder:text-white focus:ring-2 focus:ring-red-500 focus:ring-offset-1"
                 placeholder="Password"
               />
 
@@ -134,9 +133,9 @@ function Register() {
 
               <button
                 type="submit"
-                className="inline-flex w-full items-center justify-center rounded-lg bg-black p-2 py-3 text-sm font-medium text-white outline-none focus:ring-2 focus:ring-black focus:ring-offset-1 disabled:bg-gray-400"
+                className="inline-flex w-full text-xl items-center justify-center rounded-lg bg-green-600 p-2 py-3 text-sm font-medium  focus:bg-white focus:text-green-600 text-white outline-none focus:ring-2 focus:ring-green-600  focus:ring-offset-1"
               >
-                Continue
+                Register
               </button>
             </form>
 
