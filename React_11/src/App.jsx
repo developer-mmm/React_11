@@ -20,6 +20,7 @@ import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Cart from "./pages/Cart";
 
 // Global Context
 import { useContext, useEffect } from "react";
@@ -54,6 +55,10 @@ function App() {
         {
           path: "/product/:id",
           element: <Product />,
+        },
+        {
+          path: "/cart",
+          element: <Cart />,
         },
       ],
     },

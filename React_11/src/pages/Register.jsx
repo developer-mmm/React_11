@@ -102,7 +102,7 @@ function Register() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="block mt-2 bg-green-500 block w-full rounded-lg border border-red-500 px-3 py-2 shadow-sm outline-none placeholder:text-white focus:ring-2 focus:ring-red-500 focus:ring-offset-1"
+                className="block mt-2 bg-green-500  w-full rounded-lg border border-red-500 px-3 py-2 shadow-sm outline-none placeholder:text-white focus:ring-2 focus:ring-red-500 focus:ring-offset-1"
                 placeholder="Email@.com"
               />
 
@@ -133,9 +133,9 @@ function Register() {
 
               <button
                 type="submit"
-                className="inline-flex w-full text-xl items-center justify-center rounded-lg bg-green-600 p-2 py-3 text-sm font-medium  focus:bg-white focus:text-green-600 text-white outline-none focus:ring-2 focus:ring-green-600  focus:ring-offset-1"
+                className="inline-flex w-full text-xl items-center justify-center rounded-lg bg-green-600 p-2 py-3  font-medium  focus:bg-white focus:text-green-600 text-white outline-none focus:ring-2 focus:ring-green-600  focus:ring-offset-1"
               >
-                Register  
+                Register
               </button>
             </form>
 
